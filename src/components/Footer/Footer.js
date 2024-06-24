@@ -37,10 +37,10 @@ function Footer({}) {
                 <span>{siteDetails.contactDetails}</span>
 
                 <div>
-                    <img src={gmail} className='footer-icon' />
-                    <img src={facebook} className='footer-icon' />
-                    <img src={twitter} className='footer-icon' />
-                    <img src={google} className='footer-icon' />
+                    <img src={gmail} className='footer-icon' alt='icon' />
+                    <img src={facebook} className='footer-icon' alt='icon'  />
+                    <img src={twitter} className='footer-icon' alt='icon'  />
+                    <img src={google} className='footer-icon' alt='icon'  />
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ import twitter from "./../Footer/footer-icon/twitter.png"
 import google from "./../Footer/footer-icon/google.png"
 import { siteDetails,theme} from '../../data/data'
 
-function Footer({}) {
+function Footer() {
   return (<>
 
     <div className="footer">

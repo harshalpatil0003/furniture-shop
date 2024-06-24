@@ -1,0 +1,22 @@
+ .container {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    
+}
+
+.main-container {
+   background-color:bisque;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.container li {
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 25px;
+}

@@ -2,18 +2,29 @@
     width: 290px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 30px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 10px;
     
 }
 .feature-img{
     height: 200px;
     width: 250px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .feature-title{
+    text-align: justify;
     font-size: 18px;
+    padding: 0 20px;
+}
+.btn{
+    background-color: #ff741d;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: larger;
+    color: #fff;
+    border: none;
 }

@@ -3,34 +3,34 @@ import img2 from "./table-2.png"
 import img3 from "./table-3.png"
 import img4 from "./table-4.jpg"
 import img5 from "./table-5.jpg"
-import img6 from "./table-6.jpg"
+import img6 from "./table-6.png"
 import img7 from "./table-7.jpg"
-import img8 from "./table-8.jpg"
+import img8 from "./table-8.png"
 const siteDetails={
-    title: "Power Squad💪",
-    description: "Power Squad is an indoor venue for exercise and sports.",
-    contactDetails:"Ashok Stambh , Nashik , Maharashtra , India",
+    title: "Harsh Furnitures",
+    description: "Best wooden and affordable furniture of your choice.",
+    contactDetails:"Chalisgaon ,Jalgaon, Maharashtra,424101",
     showFeatures: true,
 }
 const features=[
     {
-        title: "Variety of Training ",
+        title: " Wood Coffee Table In Classic Walnut Finish",
         img:img1,
     },
     {
-        title: "High-Quality Exercise Equipment",
+        title: "Botwin Rectangular Solid Wood Coffee Table In Teak Finish",
         img:img2,
     },
     {
-        title: "Well-Designed Space and Facility",
+        title: "Baltoro Engineered Wood Free Standing TV Unit In White Finish",
         img:img3,
     },
     {
-        title: "Digital Fitness Platform",
+        title: "Blane Square Solid Wood Coffee Table In Teak Finish",
         img:img4,
     },
     {
-        title: "Well-Designed Space and Facility",
+        title: "Tate Square Solid Wood Coffee Table In Teak Finish",
         img:img5,
     },
     {
@@ -38,18 +38,18 @@ const features=[
         img:img6,
     },
     {
-        title: "Well-Designed Space and Facility",
+        title: "Milan Square Solid Wood Coffee Table In Teak Finish",
         img:img7,
     },
     {
-        title: "Well-Designed Space and Facility",
+        title: "Cayman Round Sheesham Wood And Tempered Glass Coffee Table In Teak Finish",
         img:img8,
     }
 ]
 const theme={
-    primaryColor:"#b3ffff",
+    primaryColor:"#fff",
     secondaryColor:" #008080",
-    text:"#004d4d"
+    text:"#454545"
 }
 
 export {siteDetails,features,theme}

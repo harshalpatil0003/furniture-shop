@@ -1,49 +1,63 @@
 .footer {
-    background-color: black;
-    height: 270px;
-    box-shadow: 0 0 10 10 gray;
+    background-color: rgb(192, 187, 187);
+    border-radius: 20px 20px 0 0;
  }
 
  .footer-desc {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 20px;
+    font-size: 20px;
+    align-items: center;
  }
- .footer-img{
-    padding-top: 80px;
+ .site-title{
+   padding: 10px;
+   border-radius: 0 20px 0 20px;
  }
  .quick-links {
     height: 230px;
     width: 150px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
  }
+ .links:hover{
+   transform: scale(1.1);
+   color: #ffffff;
+ }
  .links{
  text-decoration: none;
- color: white;
+ color: rgb(0, 0, 0);
+ font-weight: 600;
+ cursor: pointer;
  }
 
  .useful-links {
     height: 230px;
     width: 150px;
-    color: white;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: space-evenly;
+    cursor: pointer;
   
+ }
+ .useful-links :hover{
+   transform: scale(1.1);
+   color: #ffffff;
  }
 
  .contact {
     height: 230px;
     width: 220px;
-    color: white;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
     padding: 20px 20px;
     text-align: center;
   
